@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Featured Section */
+.featured {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.featured-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.featured-item img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.featured-content {
+    max-width: 400px;
+    text-align: left;
+}
+
+.featured-content h3 {
+    margin-bottom: 10px;
+}
+
+.featured-content p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Gallery Section */
+.gallery {
+    background-color: #fafafa;
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
