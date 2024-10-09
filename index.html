@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" onsubmit="return validateForm()">
+            <!-- First Name -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your first name.." required pattern="[A-Za-z\s]+" title="Letters and spaces only">
     
+            <!-- Last Name -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name.." required pattern="[A-Za-z\s]+" title="Letters and spaces only">
+    
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email address.." required>
+    
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <header>
+        <a href="logo.png"></a>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1></h1>
+            <p></p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
