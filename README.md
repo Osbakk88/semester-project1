@@ -1,1 +1,2 @@
-hey
+Semseterproject 1.
+Museum page
