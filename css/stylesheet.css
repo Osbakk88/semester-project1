@@ -1,0 +1,29 @@
+@import "variables.css";
+@import "contact.css";
+@import "header.css";
+@import "nav.css";
+@import "footer.css";
+@import "documentspage.css";
+@import "exhibitionspage.css";
+@import "contributionpage.css";
+@import "base.css";
+@import "explorepage.css";
+@import "newspage.css"; 
+@import "style.css";
+@import "terms.css";
+@import "privacy.css";
+@import "home.css";
+
+
+
+
+
+
+:root {
+    --color-1: #2b3549;
+    --text-color: #f0f0f0;
+    --accent-color: #43556e;
+  }
+
+
+
