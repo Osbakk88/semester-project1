@@ -20,10 +20,33 @@
 
 
 :root {
-    --color-1: #2b3549;
-    --text-color: #f0f0f0;
-    --accent-color: #43556e;
+    --color-1: #000000;
+    --text-color: #ffffff;
+    --accent-color: #000000;
   }
 
 
+
+  .links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+}
+btn:hover {
+    background-color: #45a049;
+}
 

@@ -1,15 +1,29 @@
 
-    
+
+header {
+  background-color: #000000;);
+  height: 400px;
+  display: flex;
+  align-items: center;
   
-  .header {
-    width: 1440px;
-    height: 393px;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width-header);
+    padding: 0%;
+    width: 100%;
     }
-    .header .rectangle {
-    position: fixed;
-    width: 1440px;
-    height: 393px;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    }
+  
+
+  }
+
+  .container-header {
+    height: 5%;
+    width: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
