@@ -1,0 +1,90 @@
+.news-content h1 {
+  margin-top: 15%;
+  margin-bottom: 5rem;
+  font-size: 36;
+}
+
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem;
+  padding-left: 15%;
+}
+
+.news-content p {
+  font-size: 1rem;
+  margin-bottom: 10rem;
+}
+
+.explore {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
+}
+
+.news1-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
+}
+
+.news1-content h2 {
+  margin-top: 1rem;
+}
+
+.news1-content p {
+  font-size: 1rem;
+  margin-bottom: 8rem;
+}
+
+.news2-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
+}
+
+.news2-content h2 {
+  margin-top: 1rem;
+}
+
+.news2-content p {
+  font-size: 1rem;
+  margin-bottom: 8rem;
+}
+
+.night {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
+}
+
+.news3-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
+}
+
+.news3-content h2 {
+  margin-top: 1rem;
+}
+
+.news3-content p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.biolab {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
+}
