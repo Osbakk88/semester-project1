@@ -1,6 +1,6 @@
 .exhibitions-content h1 {
-  margin-top: 10%;
-  margin-bottom: 5rem;
+  margin-top: 15%;
+  margin-bottom: 8rem;
   font-size: 36;
 }
 
@@ -8,256 +8,84 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10rem;
+  padding-left: 15%;
 }
 
-.frame1 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 450px;
-  background-color: #ffffff;
-  margin-top: 110px;
-  border: 2px black solid;
+.exhibitions-content p {
+  font-size: 1rem;
+  margin-bottom: 10rem;
 }
 
-.frame1 .cosmology-explore {
-  position: absolute;
-  font-family: var(--font-family);
-  color: #000000;
-  font-size: 20px;
-  line-height: 40px;
-  word-wrap: break-word;
-  left: 90px;
-  right: 30px;
+.Cosmology {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
 }
 
-.frame1 .caption {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
+.news1-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
 }
 
-.frame1 .span {
-  font-family: var(--font-family);
-  line-height: 24px;
-  width: 80%;
+.news1-content h2 {
+  margin-top: 1rem;
 }
 
-.img1 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 160px;
-  left: 0;
-  object-fit: cover;
-  border: 2px black solid;
+.news1-content p {
+  font-size: 1rem;
+  margin-bottom: 8rem;
 }
 
-.img2 {
-  position: relative;
-  width: 100%;
-  height: 262px;
-  top: 262px;
-  left: 0;
-  object-fit: cover;
+.news2-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
 }
 
-.frame2 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 600px;
-  background-color: #ffffff;
-  margin-top: 110px;
-  border: 2px black solid;
+.news2-content h2 {
+  margin-top: 1rem;
 }
 
-.frame2 .evolution {
-  position: absolute;
-  width: 80%;
-  /* top: 92px; */
-  left: 60px;
-  font-family: var(--font-family);
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 64px;
-}
-.frame2 .caption {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
-}
-.frame2 .span {
-  font-family: var(--font-family);
-  font-size: 20px;
-  line-height: 24px;
-}
-.frame2 .caption-2 {
-  font-family: var(--font-family);
-  font-size: 20px;
-  line-height: 40px;
-}
-.frame2 .rectangle {
-  position: absolute;
-  width: 410px;
-  height: 348px;
-  top: 269px;
-  left: 782px;
-  object-fit: cover;
+.news2-content p {
+  font-size: 1rem;
+  margin-bottom: 8rem;
 }
 
-.frame3 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 800px;
-  background-color: #ffffff;
-  margin-top: 110px;
-  border: 2px black solid;
+.night {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
 }
 
-.frame3 .flexcontainer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: flex-start;
-  margin-top: 60px;
-  margin-left: 60px;
-  width: 90%;
-  /* gap: 50px;
-  position: absolute; */
+.news3-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 36;
+  border-bottom: 2px black solid;
 }
 
-.frame3 .text {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--font-family);
-  color: #000000;
-  letter-spacing: 0;
-  line-height: 40px;
-}
-.frame3 .caption {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
-}
-.frame3 .span {
-  font-family: var(--font-family);
-  font-size: 24px;
-  line-height: 40px;
-}
-.frame3 .rectangle {
-  top: 494px;
-  position: absolute;
-  width: 411px;
-  height: 330px;
-  left: 781px;
-  object-fit: cover;
-}
-.frame3 .img {
-  top: 89px;
-  position: absolute;
-  width: 411px;
-  height: 330px;
-  left: 781px;
-  object-fit: cover;
+.news3-content h2 {
+  margin-top: 1rem;
 }
 
-.frame4 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 400px;
-  background-color: #ffffff;
-  margin-top: 110px;
-  border: 2px black solid;
+.news3-content p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
 }
 
-.frame4 .ellipse {
-  position: absolute;
-  width: 334px;
-  height: 333px;
-  top: 247px;
-  left: 781px;
-  object-fit: cover;
+.biolab {
+  width: 800px;
+  height: auto;
+  display: center;
+  flex-direction: center;
+  margin-bottom: 0rem;
 }
 
-.frame4 .robotics-and-AI-the {
-  position: absolute;
-  width: 650px;
-  top: 176px;
-  left: 75px;
-  font-family: var(--font-family);
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-
-.frame4 .caption {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.frame4 .span {
-  font-family: var(--font-family);
-  font-size: 20px;
-}
-
-.frame5 {
-  position: relative;
-  width: var(--max-width-content);
-  height: 600px;
-  background-color: #ffffff;
-  margin-top: 110px;
-  border: 2px black solid;
-}
-
-.frame5 .ecology-as-we-learn {
-  position: absolute;
-  width: 926px;
-  top: 66px;
-  left: 64px;
-  font-family: var(--font-family);
-  font-weight: 400;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 64px;
-}
-
-.frame5 .caption {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.frame5 .span {
-  font-size: 24px;
-  line-height: 40px;
-}
-
-.frame5 .text-wrapper {
-  line-height: 24px;
-  font-family: var(--font-family);
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.frame5 .rectangle {
-  position: absolute;
-  width: 379px;
-  height: 239px;
-  top: 613px;
-  left: 654px;
-  object-fit: cover;
-}
-
-.frame5 .line {
-  position: absolute;
-  width: 1232px;
-  height: 3px;
-  top: 909px;
-  left: 0;
-}
