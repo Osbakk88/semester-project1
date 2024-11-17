@@ -1,6 +1,6 @@
 .exhibitions-content h1 {
-  margin-top: 15%;
-  margin-bottom: 8rem;
+  margin-top: 10%;
+  margin-bottom: 5rem;
   font-size: 36;
 }
 
@@ -8,84 +8,266 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10rem;
-  padding-left: 15%;
 }
 
-.exhibitions-content p {
-  font-size: 1rem;
-  margin-bottom: 10rem;
+.frame1 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border: 2px black solid;
 }
 
-.Cosmology {
-  width: 800px;
+.frame1 .cosmology-explore {
+  position: absolute;
+  font-family: var(--font-family);
+  color: #000000;
+  font-size: 24px;
+  line-height: 40px;
+  word-wrap: break-word;
+  left: 90px;
+  right: 30px;
+}
+
+.frame1 .caption {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.frame1 .span {
+  font-family: var(--font-family);
+  line-height: 24px;
+  width: 80%;
+}
+
+.img1 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 160px;
+  left: 0;
+  object-fit: cover;
+  border: 2px black solid;
+}
+
+.imgSkeleton {
+  position: relative;
+  width: 300px;
   height: auto;
-  display: center;
-  flex-direction: center;
-  margin-bottom: 0rem;
+  top: 50px;
+  left: 80px;
+  object-fit: cover;
 }
 
-.news1-content h1 {
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  font-size: 36;
-  border-bottom: 2px black solid;
+.img2 {
+  position: relative;
+  width: 100%;
+  height: 262px;
+  top: 262px;
+  left: 0;
+  object-fit: cover;
 }
 
-.news1-content h2 {
-  margin-top: 1rem;
-}
-
-.news1-content p {
-  font-size: 1rem;
-  margin-bottom: 8rem;
-}
-
-.news2-content h1 {
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  font-size: 36;
-  border-bottom: 2px black solid;
-}
-
-.news2-content h2 {
-  margin-top: 1rem;
-}
-
-.news2-content p {
-  font-size: 1rem;
-  margin-bottom: 8rem;
-}
-
-.night {
-  width: 800px;
+.img3 {
+  position: relative;
+  width: 300px;
   height: auto;
-  display: center;
-  flex-direction: center;
-  margin-bottom: 0rem;
+  top: 30px;
+  left: 0;
+  object-fit: cover;
 }
 
-.news3-content h1 {
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  font-size: 36;
-  border-bottom: 2px black solid;
-}
-
-.news3-content h2 {
-  margin-top: 1rem;
-}
-
-.news3-content p {
-  font-size: 1rem;
-  margin-bottom: 3rem;
-}
-
-.biolab {
-  width: 800px;
+.imgAnt {
+  position: relative;
+  width: 300px;
   height: auto;
-  display: center;
-  flex-direction: center;
-  margin-bottom: 0rem;
+  top: 65%;
+  left: 50%;
+  object-fit: cover;
 }
 
+.frame2 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 700px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border: 2px black solid;
+}
+
+.frame2 .flexcontainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: flex-start;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 80%;
+}
+.frame2 .caption {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+.frame2 .span {
+  font-family: var(--font-family);
+  font-size: 24px;
+}
+.frame2 .caption-2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  line-height: 40px;
+}
+.frame2 .rectangle {
+  position: absolute;
+  width: 410px;
+  height: 348px;
+  top: 269px;
+  left: 782px;
+  object-fit: cover;
+}
+
+.frame3 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 740px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border: 2px black solid;
+}
+
+.frame3 .flexcontainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: flex-start;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 90%;
+}
+
+.frame3 .text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--font-family);
+  font-size: 24px;
+  color: #000000;
+}
+.frame3 .caption {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+.frame3 .span {
+  font-family: var(--font-family);
+  font-size: 24px;
+}
+.frame3 .rectangle {
+  top: 494px;
+  position: absolute;
+  width: 411px;
+  height: 330px;
+  left: 781px;
+  object-fit: cover;
+}
+.frame3 .img {
+  top: 89px;
+  position: absolute;
+  width: 411px;
+  height: 330px;
+  left: 781px;
+  object-fit: cover;
+}
+
+.frame4 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border: 2px black solid;
+}
+
+.frame4 .ellipse {
+  position: absolute;
+  width: 334px;
+  height: auto;
+  top: 120px;
+  left: 60%;
+  object-fit: cover;
+}
+
+.frame4 .robotics-and-AI-the {
+  position: absolute;
+  width: 45%;
+  top: 80px;
+  left: 75px;
+  font-family: var(--font-family);
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.frame4 .caption {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.frame4 .span {
+  font-family: var(--font-family);
+  font-size: 24px;
+}
+
+.frame5 {
+  position: relative;
+  width: var(--max-width-content);
+  height: 900px;
+  background-color: #ffffff;
+  margin-top: 110px;
+  border: 2px black solid;
+}
+
+.frame5 .ecology {
+  position: absolute;
+  width: 70%;
+  top: 66px;
+  left: 64px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+}
+
+.frame5 .caption {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.frame5 .span {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.frame5 .text-wrapper {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.frame5 .rectangle {
+  position: absolute;
+  width: 379px;
+  height: 239px;
+  top: 613px;
+  left: 654px;
+  object-fit: cover;
+}
+
+.frame5 .line {
+  position: absolute;
+  width: 1232px;
+  height: 3px;
+  top: 909px;
+  left: 0;
+}
