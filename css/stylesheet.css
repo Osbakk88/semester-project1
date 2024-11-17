@@ -1,52 +1,125 @@
-@import "variables.css";
-@import "contact.css";
 @import "header.css";
-@import "nav.css";
 @import "footer.css";
-@import "documentspage.css";
-@import "exhibitionspage.css";
-@import "contributionpage.css";
-@import "base.css";
-@import "explorepage.css";
-@import "newspage.css"; 
-@import "style.css";
+@import "variables.css";
+@import "nav.css";
+@import "fonts.css";
+@import "body.css";
+@import "contact.css";  
+@import "exhibitions.css";
+@import "contribution.css";
+@import "home.css";
 @import "terms.css";
 @import "privacy.css";
-@import "home.css";
+@import "news.css";
 
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Halant:wght@300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Halant:wght@300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap%27);
 
-
-
-
-:root {
-    --color-1: #000000;
-    --text-color: #ffffff;
-    --accent-color: #000000;
-  }
-
-
-
-  .links-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  btn {
-    background-color: #000000;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-    display: block;
-    width: 20%;
-}
-btn:hover {
-    background-color: #45a049;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  font-size: 1.3rem;
+  font-family: var(--font-family);
+}
+
+nav {
+  height: 60px;
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav {
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav a:hover {
+  background-color: var(--accent-color);
+}
+
+nav .home-link {
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 30%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  text-align: left;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.label .flexcontainer {
+  display: flex;
+  margin-top: 15%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+}
+
+.label .text {
+  position: relative;
+  align-self: stretch;
+  color: #000000;
+  font-weight: normal;
+  margin-top: 2%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.labelline {
+  position: absolute;
+  font-size: 1.6em;
+  color: #000000;
+  padding: 0 25px;
+  margin: 0 20px;
+  background-color: #000000;
+  transition: 0.2s ease;
+}

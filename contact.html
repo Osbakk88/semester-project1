@@ -1,65 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Science Museum - Contact</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/stylesheet.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <title>Community Science Museum - Contact</title>
+  </head>
+  <body>
     <div class="header"></div>
     <header>
-        <div class="container-header">
-            <a class="logo" href="/">
-            <img src="images/FullLogo_NoBuffer (4).jpg" alt="Community Science Museum" />
-            </a>
-            <nav>
-            <a class="home-link active" href="index.html">Home</a>
-            <a class="Exhibitions" href="exhibitionspage.html">Exhibitions</a>
-            <a class="News" href="news.html">News</a>
-            <a class="Contribution" href="contributionpage.html">Contribution</a>
-            </nav>
-        </div>
+      <div class="container-header">
+        <img
+          class="header-logo"
+          src="images/FullLogo_NoBuffer (4).jpg"
+          alt="Community Science Museum"
+        />
+        <nav>
+          <a class="home-link active" href="index.html">Home</a>
+          <a class="Exhibitions" href="exhibitionspage.html">Exhibitions</a>
+          <a class="News" href="news.html">News</a>
+          <a class="Contribution" href="contributionpage.html">Contribution</a>
+        </nav>
+      </div>
     </header>
-    <body style="background-color:#ECCF8B;"></body>
     <main>
-        <section>
-    <div class="container">
-        <h2>Contact Us</h2>
-        <form action="#" method="post" onsubmit="return validateForm()">
+      <section>
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="#" method="post" onsubmit="return validateForm()">
             <!-- First Name -->
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" placeholder="Your first name.." required pattern="[A-Za-z\s]+" title="Letters and spaces only">
-    
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Your first name.."
+              required
+              pattern="[A-Za-z\s]+"
+              title="Letters and spaces only"
+            />
+
             <!-- Last Name -->
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" placeholder="Your last name.." required pattern="[A-Za-z\s]+" title="Letters and spaces only">
-    
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Your last name.."
+              required
+              pattern="[A-Za-z\s]+"
+              title="Letters and spaces only"
+            />
+
             <!-- Email -->
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email address.." required>
-    
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address.."
+              required
+            />
+
             <!-- Message -->
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px" required></textarea>
-    
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here.."
+              style="height: 200px"
+              required
+            ></textarea>
+
             <button type="submit">Submit</button>
-        </form>
-    </div>
-    </section>
-</main>
-<footer>
-    <div class="menu">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="menu">
         <nav>
-            <a class="terms" href="terms.html">Terms and Conditions</a>
-            <a class="Privacy" href="privacy.html">Privacy Policy</a>
-            <a class="Contact" href="contact.html">Contact Form</a>
-            <a class="Contribution" href="contributionpage.html">Contribution - Get Involved</a>
+          <a class="terms" href="terms.html">Terms and Conditions</a>
+          <a class="Privacy" href="privacy.html">Privacy Policy</a>
+          <a class="Contact" href="contact.html">Contact Form</a>
+          <a class="Contribution" href="contributionpage.html"
+            >Contribution - Get Involved</a
+          >
         </nav>
         <div class="copy">
           &copy; 2024 Community Science Museum. All rights reserved
         </div>
       </div>
-</footer>
-</body>
+    </footer>
+  </body>
 </html>

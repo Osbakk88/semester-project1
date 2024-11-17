@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  margin: 0 auto; /* Sentrerer innholdet */
+  background-color: #eccf8b; /* Bakgrunnsfarge */
+  padding: 0px; /* Luft på innsiden */
+}
+
+/* Tilpasning for nettbrett */
+@media (max-width: 1024px) {
+  body {
+    max-width: 90%; /* Bruker prosentbasert bredde for mindre skjermer */
+  }
+}
+
+/* Tilpasning for mobil */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%; /* Fyller hele skjermbredden */
+    padding: 10px; /* Reduserer padding for små skjermer */
+  }
+}
+
+main {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+}
